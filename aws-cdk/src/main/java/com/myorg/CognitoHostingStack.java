@@ -85,9 +85,9 @@ public class CognitoHostingStack extends Stack {
                             put("version", "1.0");
                             put("applications", List.of(
                                     new LinkedHashMap<>() {{
-                                        put("appRoot", "demoauth");
+                                        put("appRoot", "demo-auth");
                                         put("frontend", new LinkedHashMap<>() {{
-                                            put("buildPath", "demoauth");
+                                            put("buildPath", "demo-auth");
                                             put("phases", new LinkedHashMap<>() {{
                                                 put("preBuild", new LinkedHashMap<>() {{
                                                     put("commands", List.of(
